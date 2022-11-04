@@ -25,7 +25,7 @@ test('Тест. year: 251', () => {
 });
 
 test('Тест. year: 2022', () => {
-	const res = isLeap(2022);
+	const res = isLeap(1900);
 
 	expect(res).toBe(false);
 });
